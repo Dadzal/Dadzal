@@ -81,8 +81,8 @@ const Navbar = () => {
                             </NavLink>
                         </li>
                      </ul>
-                     {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
-                     {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+                     <Button buttonStyle='btn--outline'>SIGN UP</Button>
+                     {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
              </div>
         </nav>
     )
