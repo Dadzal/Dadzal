@@ -7,20 +7,11 @@
 
 # testing
 /coverage
-/.nyc_output
 
 # production
-/public
 /build
 
-# keys
-/fire
-
-# app.yaml is now provided by pipeline
-app.yaml
-
 # misc
-/.vs
 .DS_Store
 .env.local
 .env.development.local
