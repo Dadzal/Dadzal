@@ -21,6 +21,12 @@ const Navbar = () => {
          <i className="fas fa-bars text-white"></i>
            </button>
 
+           <div
+           className="collapse" 
+           >
+
+           </div>
+
        </nav>
     )
 }
