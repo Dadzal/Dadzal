@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 import React from 'react'
-import Navbar from './components/Navbar/Navbar'
+// import Navbar from './components/Navbar/Navbar'
 
 import {
 BrowserRouter as Router,
@@ -19,7 +19,7 @@ import Testimonials from './pages/Testimonials/Testimonials';
 const App = () => {
   return (
     <Router>
-      <Navbar/ >
+      {/* <Navbar/> */}
       <main>
        <Switch>
        <Route path="/" exact>
