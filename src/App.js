@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 import React from 'react'
+// import Navbar from './components/Navbar/Navbar'
 
 import {
 BrowserRouter as Router,
@@ -18,21 +19,22 @@ import Testimonials from './pages/Testimonials/Testimonials';
 const App = () => {
   return (
     <Router>
+      {/* <Navbar/> */}
       <main>
        <Switch>
        <Route path="/" exact>
           <Home/>
         </Route>
-        <Route path="/" exact>
+        <Route path="/Events" exact>
           <Events/>
         </Route>
-        <Route path="/" exact>
+        <Route path="/About" exact>
           <About/>
         </Route>
-        <Route path="/" exact>
+        <Route path="/Service" exact>
           <Service/>
         </Route>
-        <Route path="/" exact>
+        <Route path="/Testimonials" exact>
           <Testimonials/>
         </Route>
         <Redirect to = "/"/>
