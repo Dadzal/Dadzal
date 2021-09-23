@@ -44,8 +44,8 @@ const Navbar = () => {
                             </NavLink>
                         </li>
                         <li className="nav-item active">
-                            <NavLink className="nav-link" to="Sevices" exact>
-                                <i className="far fa-address-book">
+                            <NavLink className="nav-link" to="Services" exact>
+                                <i className="far fa-clone">
                                 </i>
                                 Services
                             </NavLink>
