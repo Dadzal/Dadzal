@@ -64,6 +64,13 @@ const Navbar = () => {
                                Testimonials
                             </NavLink>
                         </li>
+                        <li className="nav-item active">
+                            <NavLink className="nav-link" to="/" exact>
+                                <i className="far fa-chart-bar">
+                                </i>
+                               Testimonials
+                            </NavLink>
+                        </li>
                      </ul>
              </div>
         </nav>
