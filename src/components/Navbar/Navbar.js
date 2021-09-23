@@ -26,43 +26,11 @@ const Navbar = () => {
                  id="navbarSupportedContent">
                      <ul className="navbar-nav ml-auto">
                         <div className="hori-selector">
-                          <div className="left"></div>
-                          <div className="right"></div>  
+                            <div className="left"></div>
+                            <div className="right"></div>
                         </div>
+
                         <li className="nav-item active">
-                            <NavLink className="nav-link" to="/" exact>
-                                <i className="fas fa-tachometer">
-                                </i>
-                                Home
-                            </NavLink>
-                        </li>
-                        <li className="nav-item active">
-                            <NavLink className="nav-link" to="/" exact>
-                                <i className="far fa-address-book">
-                                </i>
-                               About
-                            </NavLink>
-                        </li>
-                        <li className="nav-item active">
-                            <NavLink className="nav-link" to="/" exact>
-                                <i className="far fa-address-book">
-                                </i>
-                                Contact
-                            </NavLink>
-                        </li>
-                        <li className="nav-item active">
-                            <NavLink className="nav-link" to="/" exact>
-                                <i className="far fa-clone">
-                                </i>
-                               Events
-                            </NavLink>
-                        </li>
-                        <li className="nav-item active">
-                            <NavLink className="nav-link" to="/" exact>
-                                <i className="far fa-chart-bar">
-                                </i>
-                               Testimonials
-                            </NavLink>
                         </li>
                         <li className="nav-item active">
                             <NavLink className="nav-link" to="/" exact>
