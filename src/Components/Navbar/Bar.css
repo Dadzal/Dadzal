@@ -14,6 +14,8 @@ i{
 .navbar-logo{
     font-size: 20px;
     color: white;
+    font-family: cursive;
+    padding-left: 12px;
 }
 .navbar-mainbg{
     background-color: black;
