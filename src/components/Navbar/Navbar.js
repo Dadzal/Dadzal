@@ -25,9 +25,13 @@ const Navbar = () => {
                  className="collapse navbar-collapse"
                  id="navbarSupportedContent">
                      <ul className="navbar-nav ml-auto">
-                        <div>
-                            
+                        <div className="hori-selector">
+                            <div className="left"></div>
+                            <div className="right"></div>
                         </div>
+
+                        <li className="nav-item active">
+                        </li>
                      </ul>
              </div>
         </nav>
