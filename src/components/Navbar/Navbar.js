@@ -12,6 +12,12 @@ const Navbar = () => {
 
              <button
                  className="navbar-toggler"
+                //  onClick={()=>{
+                //     setTimeout(function(){
+                //         Animation();
+                //     });
+                //   }
+                //  }
                  type="button"
                  data-toggle="collapse"
                  data-target="navbarSupportedContent"
