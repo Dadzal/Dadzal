@@ -4,17 +4,19 @@ import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
 
 import {
-BrowserRouter as Router,
-Route,
-Redirect,
-Switch
- } from 'react-router-dom';
+     BrowserRouter as Router,
+     Route,
+     Redirect,
+     Switch
+    } 
+from 'react-router-dom';
 
 import About from './pages/About/About';
 import Events from './pages/Events/Events';
 import Home from './pages/Home/Home';
 import Service from './pages/Services/Services';
 import Testimonials from './pages/Testimonials/Testimonials';
+import EventList from './pages/Events/EventList'
 
 const App = () => {
   return (
@@ -26,7 +28,7 @@ const App = () => {
           <Home/>
         </Route>
         <Route path="/Events" exact>
-          <Events/>
+          <EventList/>
         </Route>
         <Route path="/About" exact>
           <About/>
