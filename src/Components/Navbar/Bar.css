@@ -12,7 +12,7 @@ body{
     position:absolute;
     max-width:0;
     overflow:hidden;
-    transition:0.7s;
+    transition:0.6s;
 }
 .open{
     max-width:1000px;
