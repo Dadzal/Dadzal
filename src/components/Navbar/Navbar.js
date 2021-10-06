@@ -1,15 +1,17 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Bar  from './Bar.css';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
+    const [click, setClick] = useState(false)
     return (
+      
         <nav className="navbar navbar-expand-lg navbar-mainbg">
              <NavLink className="navbar-brand navbar-logo" to="/" exact>
                 Mufakose
              </NavLink>
 
-
+{console.log(click)}
              <button
                  className="navbar-toggler"
                 //  onClick={()=>{
@@ -23,12 +25,14 @@ const Navbar = () => {
                  data-target="navbarSupportedContent"
                  arial-controls="navbarSupportedContent"
                  arial-expanded="false"
+
+                 onClick={()=> setClick(!click)}
                  arial-label="Toggle navigation">
                  <i className="fas fa-bars text-white"></i>
              </button>
 
              <div
-                 className="collapse navbar-collapse"
+                 className={click ? 'open menu' : "menu"}
                  id="navbarSupportedContent">
                      <ul className="navbar-nav ml-auto">
                         <div className="hori-selector">
