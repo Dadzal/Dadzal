@@ -74,6 +74,11 @@ const Navbar = () => {
                                Testimonials
                             </NavLink>
                         </li>
+                        <li className="nav-item active">
+                            <NavLink className="nav-link-mobile" to="Sign-up" exact>
+                               Sign-up
+                            </NavLink>
+                        </li>
                      </ul>
              </div>
         </nav>
