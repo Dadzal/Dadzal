@@ -9,18 +9,97 @@ body{
 }
 
 @media (max-width: 568px){
+
+    .navbar-mainbg{
+        background-color: black;
+        padding-right: 30px;
+        height: 12vh;
+    }
+
+
+    .navbar-logo{
+        font-size: 20px;
+        color: white;
+        font-family: cursive;
+        padding-left: 12px;
+        position: absolute;
+    }
+
+    .navbar-toggler {
+        padding: .25rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        position: absolute;
+        right: 20px;
+    }
+    
 .menu{
     width:100%;
     position:absolute;
     max-width:0;
     overflow:hidden;
     transition:0.6s;
+    
 }
 .open{
     max-width:1000px;
+    background-color: red;
+    top: 11vh;
+    z-index: 1;
 }
 
 }
+
+
+@media (width :768px)
+{   
+    .navbar-mainbg{
+        background-color: black;
+        padding-right: 30px;
+        height: 12vh;
+    }
+
+
+    .navbar-logo{
+        font-size: 20px;
+        color: white;
+        font-family: cursive;
+        padding-left: 12px;
+        position: absolute;
+    }
+
+    .navbar-toggler {
+        padding: .25rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        position: absolute;
+        right: 20px;
+    }
+    
+.menu{
+    width:100%;
+    position:absolute;
+    max-width:0;
+    overflow:hidden;
+    transition:0.6s;
+    
+}
+
+    .open{
+        max-width:1000px;
+        background-color: blue;
+        top: 11vh;
+        z-index: 1;
+    }
+}
+
+
 a{color: white;}
 i{
     margin-right: 10px;
@@ -182,3 +261,14 @@ i{
      border-top-right-radius: 15px;
      margin-top: 10px;
 }
+
+
+
+
+
+@media (min-width: 992px)
+{
+.navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}}
