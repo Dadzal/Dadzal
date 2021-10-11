@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import Bar  from './Bar.css';
 import { NavLink } from 'react-router-dom';
+import { Button } from '../Button';
 
 const Navbar = () => {
     const [click, setClick] = useState(false)
@@ -80,6 +81,8 @@ const Navbar = () => {
                             </NavLink>
                         </li>
                      </ul>
+                     {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+                     {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
              </div>
         </nav>
     )
