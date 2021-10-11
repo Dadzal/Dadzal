@@ -8,7 +8,7 @@ import React from 'react';
     const time = `09:00`
     
     return (
-        <div className="col-md-4 ">
+        <div className="col-md-6 ">
             <div className="card ">
                 <div class="card-body">
                     <h5 class="card-title">
