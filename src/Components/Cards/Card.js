@@ -27,6 +27,7 @@ import PropTypes from 'prop-types'
         </div>
     )
 }
+
 Card.propTypes = {
 	department: PropTypes.string,
 	venue: PropTypes.string,
@@ -35,3 +36,5 @@ Card.propTypes = {
 };
 
 export default Card;
+
+
