@@ -13,12 +13,12 @@ function Footer () {
               </p>
               <div className="input-areas">  
                     <form>
-                        <Button buttonStyle='btn--outline'>Subscribe</Button>
+                        <button buttonStyle='btn-outline'>Subscribe</button>
                     </form>
               </div>
           </section>
         </div>
-    )
+    );
 }
 
 
