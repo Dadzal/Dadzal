@@ -1,25 +1,36 @@
-import React from 'react'
+import React from 'react';
+import './Footer.css';
+import kl from '../Components/img/imgs.png';
 
-function Footer () {
-    const newLocal = <input type="email" name="email" placeholder="Your Email" className="footer-input" />
-    return (
+
+function Footer() {
+    return(
         <div className='footer-container'>
-          <section className="footer-subscription">    
-              <p className="footer-subscription-heading">  
+            <section className="footer-subscription">
+               <p className="footer-subscription-heading">
                     Join the adventure newsletter to receive our best vacation deals
-              </p>
-              <p className="footer-subscription-text">  
+               </p>
+               <p className="footer-subscription-text">
                     You can unsubscribe at any time.
-              </p>
-              <div className="input-areas">  
-                    <form>
-                        <button buttonStyle='btn-outline'>Subscribe</button>
-                    </form>
-              </div>
-          </section>
+               </p>
+               <div className="input-areas">
+                  <form>
+                      <input
+                         type='email'
+                         name='email'
+                         placeholder='Your Email'
+                         className='footer-input'
+                      />
+
+                <button>Subscribe</button>
+  
+                  </form>
+                  <img scr={kl} alt="map" />
+               </div>
+            </section>
         </div>
     );
 }
 
 
-export default Footer
+export default Footer;

@@ -9,7 +9,7 @@ const  Home = () =>{
             <CardForm/>
            <Cardlist/>
            <Footer/>
-        </div>      
+        </div>
     )
 }
 
