@@ -29,7 +29,7 @@ function Footer() {
                </div>
             </section>
         </div>
-    )
+    );
 }
 
 
