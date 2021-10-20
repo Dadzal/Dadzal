@@ -25,7 +25,7 @@ function Footer() {
                 <button>Subscribe</button>
   
                   </form>
-                  <img scr={kl} alt="map" />
+                  <img src={kl} alt="map"/>
                </div>
             </section>
         </div>
@@ -34,3 +34,7 @@ function Footer() {
 
 
 export default Footer;
+
+
+
+
