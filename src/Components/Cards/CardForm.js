@@ -51,7 +51,7 @@ class CardForm extends React.Component {
         )
     }
 }
-CardForm.proptypes = {addCard:PropTypes.func.isRequired};
+CardForm.propTypes = {addCard:PropTypes.func.isRequired};
 export default CardForm
 
 
