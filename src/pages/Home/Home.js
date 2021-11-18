@@ -12,6 +12,7 @@ const  Home = () =>{
            <HeroSection/>
            <CardForm/>
            <Cardlist/>
+           <Footer/>
         </div>
     )
 }

@@ -2,13 +2,12 @@ import React,{useState} from 'react'
 import Bar  from './Bar.css';
 import { NavLink } from 'react-router-dom';
 import { Button } from '../Button';
-import { Link, animateScroll as Scroll } from 'react-scroll';
+// import { Link, animateScroll as Scroll } from 'react-scroll';
 
 
 const Navbar = () => {
     const [click, setClick] = useState(false)
-    return (
-      
+    return (     
         <nav className="navbar navbar-expand-lg navbar-mainbg">
              <NavLink className="navbar-brand navbar-logo" to="/" exact>
                 Mufakose
