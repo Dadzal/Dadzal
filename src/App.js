@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
@@ -12,7 +11,6 @@ import {
 from 'react-router-dom';
       
 import About from './pages/About/About';
-import Events from './pages/Events/Events';
 import Home from './pages/Home/Home';
 import Service from './pages/Services/Services';
 import Testimonials from './pages/Testimonials/Testimonials';

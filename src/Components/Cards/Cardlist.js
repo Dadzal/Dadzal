@@ -1,17 +1,13 @@
-import React, { Component } from 'react';
 import Card from './Card';
 
- class Cardlist extends React.Component {
-    render() {
-        return (
-            <div className="container">
-                <div className="row">
-                    <Card/>
-                    <Card/>
-                </div>
-            </div>
-        )
-    }
+function Cardlist({list}){
+    return(
+        <section>
+            {list.map((item, i)=> {
+                return <Card myaddress={item.addressName} country={item.country} key={i} />
+            })}
+        </section>
+    )
 }
 
 export default Cardlist;
